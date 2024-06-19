@@ -35,7 +35,6 @@ export default async function (req, res, next) {
       params,
       files,
       headers,
-      isAdmin,
     }).then(
       (success) => {
         if (isDataDownload) {
